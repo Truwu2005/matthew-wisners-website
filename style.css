@@ -1,0 +1,154 @@
+/*Important for spacing*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4D4039;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+  }
+
+h1 {
+    font-size: 50px;
+    padding: 25px;
+    color: white;
+    background-color: #242f44;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    padding: 25px
+}
+
+/*Used by foooter text exclusively*/
+h3 {
+    font-size: 20px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+/*Used by home page (index.html) text exclusively*/
+h4 {
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+/*Used for all the external links*/
+h5 {
+    background-color: #fff;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    margin: 10%;
+    border-radius: 25px;
+}
+
+/*For the Giant "HELLO" on the Home Page*/
+h6 {
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/*This adds the navbar as seen on the home, info, and course pages*/
+.navbar{
+    padding: 20px 0;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    position: relative;
+    font-size: 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*Change width back to 0% to have bar under text appear only when mouse is hovering on said text*/
+.navbar ul li:after{
+    content: '';
+    height: 4px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 1s;
+}
+
+.navbar ul li:hover:after{
+    width: 100%;
+    background: #705893;
+}
+
+/*This is for splitting the page into two sides*/
+.left-column{
+    float: left;
+    width: 47%
+}
+
+.right-column{
+    float: right;
+    width: 47%
+}
+
+/*This is for any text section occupying one column/side of the page*/
+.textFormat{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.textFormat p{
+    font-size: 20px;
+}
+/*You would never believe this but its used for the*/
+.resumeSpace {
+    padding: 20px;
+    margin-bottom: 20%;
+}
+
+/*Space for images to make them fit nicer*/
+.imageSpace {
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+/*get this nigga... its for the footer*/
+footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: #242f44;
+}
+
+footer h3 {
+    display: inline-block;
+    font-size: 14px;
+    background-color: #242f44;
+}
